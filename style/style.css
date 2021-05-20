@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../Fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.lists {
+    height: 520px;
+}
+
+a {
+    text-decoration: none;
+}   
+
+.header {
+    width: 1365px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px ;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+.heading {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #111517;
+}
+
+.container {
+    width: 1365px;
+    margin: 0 auto;
+    background: #F2F2F2;
+}
+
+.dark-mode {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111517;
+}
+
+.dark-mode::before {
+    content: url(../img/moon.svg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-section {
+    background-color: #F2F2F2;
+  
+}
+
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 25px 80px;
+}
+
+.search-style {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    width: 200px;
+    padding-left:25px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    border: transparent;
+
+}
+
+.searching{
+    border: transparent;
+    width: 480px;
+    padding-left:75px ;
+    height: 56px;
+    display: inline-block;
+}
+
+
+
+.min-conent {
+    padding: 25px 80px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.countries {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    width: 260px;
+    margin-bottom: 70px;
+}
+
+.country-infos {    
+    padding: 25px;
+}
+
+.flags {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 260px;
+  
+}
